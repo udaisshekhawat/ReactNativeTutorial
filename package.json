@@ -13,7 +13,8 @@
     "eject": "react-native-scripts eject",
     "android": "react-native-scripts android",
     "ios": "react-native-scripts ios",
-    "test": "node node_modules/jest/bin/jest.js --watch"
+    "test": "node node_modules/jest/bin/jest.js --watch",
+    "set-redux": "npm install --save react-redux && npm install --save redux && npm install --save redux-thunk"
   },
   "jest": {
     "preset": "jest-expo"
@@ -21,6 +22,9 @@
   "dependencies": {
     "expo": "^23.0.4",
     "react": "16.0.0",
-    "react-native": "0.50.3"
+    "react-native": "0.50.3",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
   }
 }
